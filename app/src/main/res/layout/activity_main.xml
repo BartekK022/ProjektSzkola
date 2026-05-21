@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TIMER -->
+    <TextView
+        android:id="@+id/textViewTimer"
+        android:text="00:00"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- PYTANIE -->
+    <TextView
+        android:id="@+id/textViewPytanie"
+        android:text="Pytanie"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- TAK -->
+    <Button
+        android:id="@+id/btnTak"
+        android:text="TAK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- NIE -->
+    <Button
+        android:id="@+id/btnNie"
+        android:text="NIE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
